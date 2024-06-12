@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+    --primary: #fff;
+    --secondary: #446f91;
+    --third: #002f59;
+
+    --font: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+body {
+    min-height: 1756px;
+}
+
+header {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 143px;
+}
+
+header .header-nav {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    white-space: nowrap;
+    font-family: var(--font);
+}
+
+header .header-nav a {
+    margin-right: 40px; /* Memberikan jarak horizontal antara elemen */
+}
+
+/* Menghilangkan margin pada elemen terakhir */
+header .header-nav a:last-child {
+    margin-right: 0;
+}
+
+header .header-logo {
+    margin-top: 41px;
+    margin-bottom: 27px;
+    margin-left: 114px;
+    margin-right: 114px;
+}
+
+header .header-button {
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font);
+}
+
+header .header-button .button-1 {
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 20px 30px;
+    border-radius: 60px;
+    border: 2px solid black;
+    text-align: center;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+}
+
+header .header-button .button-1:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+header .header-button .button-2 {
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 20px 30px;
+    border-radius: 60px;
+    border: 2px solid black;
+    text-align: center;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+}
+
+header .header-button .button-2:hover {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.content-1 {
+    min-height: 581px;
+    background-image: url("../images/content-1-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid #e1e0e1;
+}
+
+.content-1 .c1-wrapper {
+    padding-top: 154px;
+    padding-left: 122px;
+    padding-right: 180px;
+}
+
+.content-1 .c1-wrapper h1 {
+    font-family: var(--font);
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--secondary);
+}
+
+.content-1 .c1-wrapper p {
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--third);
+    text-align: justify;
+}
+
+.content-1 .c1-wrapper .c1button {
+    margin-top: 5%;
+    font-family: var(--font);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.content-1 .c1-wrapper .c1button .button-3 {
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 20px 36px;
+    border-radius: 60px;
+    border: 2px solid black;
+    text-align: center;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+}
+
+.content-1 .c1-wrapper .c1button .button-3:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.content-2 {
+    min-height: 1032px;
+    background: linear-gradient(to bottom, #e1e0e1, #446f91);
+    border: 1px solid #e1e0e1;
+}
+
+.content-2 .c2-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    padding-top: 207px;
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat-Regular";
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+}
+
+input,
+textarea,
+select,
+button {
+    font-family: "Montserrat-Regular";
+    color: #fff;
+    font-size: 15px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+:focus {
+    outline: none;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("../images/bg-registration-form-7.jpg") no-repeat;
+    background-size: cover;
+}
+
+.inner {
+    max-width: 758px;
+    margin: auto;
+    background: #39459b;
+    border: 10px solid #0d99d7;
+    padding: 77px 99px 87px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+    resize: none;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+p {
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 55px;
+    line-height: 1.8;
+}
+
+.form-group {
+    position: relative;
+    display: block;
+    margin-bottom: 48px;
+}
+.form-group span {
+    font-size: 15px;
+    color: #00ade6;
+    position: absolute;
+    top: 11px;
+    transition: all 0.2s ease;
+    transform-origin: 0 0;
+    cursor: text;
+}
+.form-group span.border {
+    height: 2px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 41px;
+    transform: scaleX(0);
+    transition: all 0.15s ease;
+    background: #fff;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid #00ade6;
+    display: block;
+    width: 100%;
+    height: 43px;
+    font-size: 15px;
+    background: none;
+    font-family: "Montserrat-SemiBold";
+}
+.form-control:focus,
+.form-control:valid {
+    border-bottom: 2px solid #fff;
+}
+.form-control:focus + span,
+.form-control:valid + span {
+    transform: translateY(-22px) scale(0.8);
+}
+.form-control:focus + span + .border,
+.form-control:valid + span + .border {
+    transform: scaleX(1);
+}
+
+textarea.form-control {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button {
+    border: none;
+    width: 162px;
+    height: 51px;
+    border: 2px solid #fff;
+    margin: auto;
+    margin-top: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat-SemiBold";
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+button i {
+    margin-left: 10px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2098d1;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+button:hover {
+    border-color: transparent;
+}
+button:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+button:hover i {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+}
+
+@media (max-width: 767px) {
+    h3 {
+        font-size: 38px;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .inner {
+        padding: 27px 20px 37px;
+        border: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        -ms-box-shadow: none;
+        -o-box-shadow: none;
+    }
+
+    .wrapper {
+        background: #39459b;
+        border: 10px solid #0d99d7;
+    }
+}
+
+.form-group select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #00ade6;
+    display: block;
+    width: 100%;
+    height: 43px;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 0;
+    font-family: "Montserrat-SemiBold";
+}
+
+.form-group select.form-control:focus,
+.form-group select.form-control:valid {
+    border-bottom: 2px solid #fff;
+}
+
+.form-group select.form-control:focus + span,
+.form-group select.form-control:valid + span {
+    transform: translateY(-22px) scale(0.8);
+}
+
+.form-group select.form-control + .border {
+    top: 36px; /* Adjust if necessary */
+}
+
+/* To add an arrow to the select dropdown */
+.form-group select.form-control {
+    position: relative;
+    padding-right: 30px; /* Add space for the arrow */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 24px;
+}
